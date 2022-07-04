@@ -11,7 +11,7 @@ image_editor: image_editor.c
 	$(CC) $(CFLAGS) image_editor.c -o image_editor
 
 pack:
-	zip -FSr 313CA_MihneaBlotiu_Tema3.zip README Makefile *.c *.h
+	zip -FSr Nume.zip README Makefile *.c *.h
 
 clean:
 	rm -f $(TARGETS)
